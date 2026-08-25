@@ -3,15 +3,15 @@
 Bu depo yalnızca **GuessChallenge**'ın gizlilik politikasını yayınlar.
 Oyunun kaynak kodu burada değil.
 
-Yayındaki adres: <https://bayramfurkankurucan.github.io/tahminoyunu-gizlilik/>
+Yayındaki adres: <https://bayramfurkankurucan.github.io/GuessChallenge-Privacy/>
 
 ## Bu dosyalar elle düzenlenmez
 
 `index.html` **üretilen** bir dosyadır. Kaynağı, oyunun kendi deposundaki
-`web/PRIVACY.md`. Politika değiştiğinde oradan yeniden üretilir:
+`src/web/PRIVACY.md`. Politika değiştiğinde oradan yeniden üretilir:
 
 ```bash
-cd <oyun-deposu>/web
+cd <oyun-deposu>/src/web
 npm run privacy:site -- --out <bu-deponun-yolu>/index.html
 ```
 
