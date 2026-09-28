@@ -1,25 +1,15 @@
-# GuessChallenge — Gizlilik Politikası
+# GuessChallenge — Gizlilik Politikası (taşındı)
 
-Bu depo yalnızca **GuessChallenge**'ın gizlilik politikasını yayınlar.
-Oyunun kaynak kodu burada değil.
+GuessChallenge'ın gizlilik politikası artık Feastek'in sitesinde yayınlanıyor:
 
-Yayındaki adres: <https://bayramfurkankurucan.github.io/GuessChallenge-Privacy/>
+- Türkçe: <https://feastek.com/guesschallenge/privacy/>
+- İngilizce: <https://feastek.com/en/guesschallenge/privacy/>
 
-## Bu dosyalar elle düzenlenmez
-
-`index.html` **üretilen** bir dosyadır. Kaynağı, oyunun kendi deposundaki
-`src/web/PRIVACY.md`. Politika değiştiğinde oradan yeniden üretilir:
-
-```bash
-cd <oyun-deposu>/src/web
-npm run privacy:site -- --out <bu-deponun-yolu>/index.html
-```
-
-Sonra buradan commit'lenip push'lanır.
-
-İki kopyayı ayrı ayrı elle tutmak, biri güncellenip diğeri unutulduğunda
-yayında eski politikanın kalması demek olurdu — ve mağazaya verilen adreste
-yazan metin bağlayıcı olan.
+Bu depo yalnızca eski adresi (<https://bayramfurkankurucan.github.io/GuessChallenge-Privacy/>)
+açan eski bağlantılar için duruyor: `index.html` ziyaretçiyi yeni adrese
+yönlendiriyor. Politikanın metni burada tutulmuyor ve bu sayfa artık
+üretilmiyor; politika oyunun kendi deposundan sitenin her derlemesinde
+yeniden üretiliyor.
 
 ## Yayın ayarı
 
